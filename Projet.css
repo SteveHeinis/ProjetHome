@@ -1,0 +1,145 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.pm a:hover, .right a:hover {
+	color: white;
+}
+
+body a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+header { 
+background: black;}
+
+header .ph {
+	height: 50px;
+	background: #070000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+
+header .ph h4 {
+	display: inline;
+	float: right;
+	margin-right: 2%;
+	margin-top: 1%;
+	font-family: 'JelleeBold';
+	padding-top: 5px; 
+	}
+
+header .pm {
+	height: 150px;
+	text-align: center;
+    color: white;
+    background-color: black;
+    }
+
+header .pm h1 {
+	font-family: 'AlexBrushRegular';
+	font-size: 100px;
+	padding-top: 20px;
+}
+
+header .pl {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	background: #070000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+
+header .pl h3 {
+	width: 20%;
+	margin-left: 6%;
+	margin-top: 1%;
+	font-family: 'JelleeBold'; 
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+}
+
+#slider { 
+	overflow: hidden; }
+
+#slider figure img { 
+	width: 20%; float: left; }
+
+#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+ #vpart .hfe {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+#vpart .stv {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.titlev {
+	background-color: black;
+	color: white;
+	width: 30%;
+	height: 615px;
+}
+
+#Marques {
+	display: flex;
+	justify-content: space-around;
+}
+
+#Marques .logom {
+	width: 15%;
+	height: 200px;
+}
+
+#Marques .logom img {
+	-webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px; 
+}
+
+#end {
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	color: white;
+}
+
+#end .right {
+	margin-top: 20px;
+}
+
+#end li {
+	list-style: none;
+}
